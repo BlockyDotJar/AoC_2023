@@ -1,7 +1,5 @@
 # [Advent of Code 2023](https://adventofcode.com/2023) Solutions in Java
 
-### What the fuq is this?
-
 This repository contains solutions to [Eric Wastls](https://twitter.com/ericwastl) Advent of Code 2023.
 <br>**Thank you, Eric!**
 
@@ -22,4 +20,4 @@ Like I said, this is not the *best* or maybe not even a *good* solution.
 | Day - Challenge name | Part 1 | Part 2 |
 |----------------------|--------|--------|
 | 01 - Trebuchet?!     | ✅      | ✅      |
-| 02 - Cube Conundrum  | ❌      | ❌      |
+| 02 - Cube Conundrum  | ✅      | ✅      |
