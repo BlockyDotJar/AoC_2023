@@ -1,5 +1,5 @@
 /**
- * VorteX - General utility program written in Java.
+ * Solutions for Advent of Code 2023.
  * Copyright (C) 2023 BlockyDotJar (aka. Dominic R.)
  *
  * This program is free software: you can redistribute it and/or modify
