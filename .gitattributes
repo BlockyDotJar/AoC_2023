@@ -1,0 +1,5 @@
+.git* text eol=crlf
+*.java text eol=crlf
+*.bat text eol=crlf
+
+* text=auto
