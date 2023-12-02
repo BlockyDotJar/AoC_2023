@@ -45,7 +45,12 @@ public class Day_01
         for (String line : lines)
         {
             int[] numbers = line.chars().filter(Character::isDigit).map(Character::getNumericValue).toArray();
-            sum += Integer.parseInt(Integer.toString(numbers[0]) + numbers[numbers.length - 1]);
+
+            String firstNumber = Integer.toString(numbers[0]);
+            String lastNumber = Integer.toString(numbers[numbers.length - 1]);
+            String twoDigitNumber = firstNumber + lastNumber;
+
+            sum += Integer.parseInt(twoDigitNumber);
         }
         return sum;
     }
