@@ -21,3 +21,4 @@ Like I said, this is not the *best* or maybe not even a *good* solution.
 |----------------------|--------|--------|
 | 01 - Trebuchet?!     | ✅      | ✅      |
 | 02 - Cube Conundrum  | ✅      | ✅      |
+| 03 - Gear Ratios     | ✅      | ✅      |
