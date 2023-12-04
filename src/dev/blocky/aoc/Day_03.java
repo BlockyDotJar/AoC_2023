@@ -89,7 +89,7 @@ public class Day_03
     public static int part2()
     {
         return symbols.stream().filter(symbol -> numbers.stream().filter(number -> number.hasAdjacent(symbol)).count() == 2)
-                .mapToInt(symbol -> numbers.stream().filter(number -> number.hasAdjacent(symbol)).mapToInt(Number::number).reduce((l, r) -> l * r).orElse(0))
+                .mapToInt(symbol -> numbers.stream().filter(number -> number.hasAdjacent(symbol)).mapToInt(Number::number).reduce((left, right) -> left * right).orElse(0))
                 .sum();
     }
 
