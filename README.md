@@ -17,9 +17,10 @@ Like I said, this is not the *best* or maybe not even a *good* solution.
 
 **Java Version used:** 17.0.9
 
-| Day - Challenge name | Part 1 | Part 2 |
-|----------------------|--------|--------|
-| 01 - Trebuchet?!     | ✅      | ✅      |
-| 02 - Cube Conundrum  | ✅      | ✅      |
-| 03 - Gear Ratios     | ✅      | ✅      |
-| 04 - Scratchcards    | ✅      | ✅      |
+| Day - Challenge name                 | Part 1 | Part 2 |
+|--------------------------------------|--------|--------|
+| 01 - Trebuchet?!                     | ✅      | ✅      |
+| 02 - Cube Conundrum                  | ✅      | ✅      |
+| 03 - Gear Ratios                     | ✅      | ✅      |
+| 04 - Scratchcards                    | ✅      | ✅      |
+| 05 - If You Give A Seed A Fertilizer | ✅      | ✅      |
