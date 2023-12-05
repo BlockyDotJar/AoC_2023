@@ -28,7 +28,7 @@ public class Day_05
 {
     private static List<Long> seeds = new ArrayList<>();
     private static final List<AlmanacMap> maps = new ArrayList<>(7);
-    private static final List<AlmanacRange> seedToLocationRanges = new ArrayList<>();
+    private static final List<AlmanacRange> seedRangeLocations = new ArrayList<>();
 
     public static void main(String[] args) throws IOException
     {
@@ -105,7 +105,7 @@ public class Day_05
             setupRanges(0, rangeStart, rangeLength, rangeStart);
         }
 
-        List<Long> locations = seedToLocationRanges.stream().mapToLong(range -> range.destinationRangeStart).boxed().toList();
+        List<Long> locations = seedRangeLocations.stream().mapToLong(range -> range.destinationRangeStart).boxed().toList();
 
         return Collections.min(locations);
     }
@@ -119,7 +119,7 @@ public class Day_05
             for (AlmanacRange range : ranges)
             {
                 AlmanacRange almanacRange = new AlmanacRange(range.destinationRangeStart, sourceRangeStart, rangeLength);
-                seedToLocationRanges.add(almanacRange);
+                seedRangeLocations.add(almanacRange);
 
                 sourceRangeStart += range.rangeLength;
             }
