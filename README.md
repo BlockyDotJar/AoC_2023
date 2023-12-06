@@ -24,3 +24,4 @@ Like I said, this is not the *best* or maybe not even a *good* solution.
 | 03 - Gear Ratios                     | ✅      | ✅      |
 | 04 - Scratchcards                    | ✅      | ✅      |
 | 05 - If You Give A Seed A Fertilizer | ✅      | ✅      |
+| 06 - Wait For It                     | ✅      | ✅      |
