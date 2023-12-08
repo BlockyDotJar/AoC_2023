@@ -26,3 +26,4 @@ Like I said, this is not the *best* or maybe not even a *good* solution.
 | 05 - If You Give A Seed A Fertilizer | ✅      | ✅      |
 | 06 - Wait For It                     | ✅      | ✅      |
 | 07 - Camel Cards                     | ✅      | ✅      |
+| 08 - Haunted Wasteland               | ✅      | ✅      |
