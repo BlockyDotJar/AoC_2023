@@ -146,12 +146,10 @@ public class Day_08
                 if (i == (instructions.length - 1))
                 {
                     i = -1;
-                    continue;
                 }
             }
             steps.add(aSteps);
         }
-
         return lcm(steps);
     }
 
