@@ -27,3 +27,5 @@ Like I said, this is not the *best* or maybe not even a *good* solution.
 | 06 - Wait For It                     | ✅      | ✅      |
 | 07 - Camel Cards                     | ✅      | ✅      |
 | 08 - Haunted Wasteland               | ✅      | ✅      |
+| 09 - Mirage Maintenance              | ✅      | ✅      |
+| 10 - Pipe Maze                       | ❌      | ❌      |
