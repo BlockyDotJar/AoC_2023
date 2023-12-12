@@ -30,3 +30,4 @@ Like I said, this is not the *best* or maybe not even a *good* solution.
 | 09 - Mirage Maintenance              | ✅      | ✅      |
 | 10 - Pipe Maze                       | ❌      | ❌      |
 | 11 - Cosmic Expansion                | ❌      | ❌      |
+| 12 - Hot Springs                     | ❌      | ❌      |
