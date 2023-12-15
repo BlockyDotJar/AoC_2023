@@ -31,3 +31,6 @@ Like I said, this is not the *best* or maybe not even a *good* solution.
 | 10 - Pipe Maze                       | ❌      | ❌      |
 | 11 - Cosmic Expansion                | ❌      | ❌      |
 | 12 - Hot Springs                     | ❌      | ❌      |
+| 13 - Point of Incidence              | ❌      | ❌      |
+| 14 - Parabolic Reflector Dish        | ✅      | ❌      |
+| 15 - Lens Library                    | ✅      | ✅      |

@@ -52,26 +52,8 @@ public class Day_04
 
             String[] cardParts = line.split("\\|");
 
-            String[] winningNumbersRaw = cardParts[0]
-                    .substring(9)
-                    .strip()
-                    .split(" ");
-
-            String[] myNumbersRaw = cardParts[1]
-                    .strip()
-                    .split(" ");
-
-            List<Integer> winningNumbers = Arrays.stream(winningNumbersRaw)
-                    .filter(str -> !str.isBlank())
-                    .mapToInt(str -> Integer.parseInt(str.strip()))
-                    .boxed()
-                    .toList();
-
-            List<Integer> myNumbers = Arrays.stream(myNumbersRaw)
-                    .filter(str -> !str.isBlank())
-                    .mapToInt(str -> Integer.parseInt(str.strip()))
-                    .boxed()
-                    .toList();
+            List<Integer> myNumbers = getMyNumbers(cardParts);
+            List<Integer> winningNumbers = getWinningNumbers(cardParts);
 
             List<Integer> matchingNumbers = myNumbers.stream()
                     .filter(winningNumbers::contains)
@@ -113,26 +95,8 @@ public class Day_04
 
             String[] cardParts = line.split("\\|");
 
-            String[] winningNumbersRaw = cardParts[0]
-                    .substring(9)
-                    .strip()
-                    .split(" ");
-
-            String[] myNumbersRaw = cardParts[1]
-                    .strip()
-                    .split(" ");
-
-            List<Integer> winningNumbers = Arrays.stream(winningNumbersRaw)
-                    .filter(str -> !str.isBlank())
-                    .mapToInt(str -> Integer.parseInt(str.strip()))
-                    .boxed()
-                    .toList();
-
-            List<Integer> myNumbers = Arrays.stream(myNumbersRaw)
-                    .filter(str -> !str.isBlank())
-                    .mapToInt(str -> Integer.parseInt(str.strip()))
-                    .boxed()
-                    .toList();
+            List<Integer> myNumbers = getMyNumbers(cardParts);
+            List<Integer> winningNumbers = getWinningNumbers(cardParts);
 
             long matchesRaw = myNumbers.stream()
                     .filter(winningNumbers::contains)
@@ -154,5 +118,32 @@ public class Day_04
             card++;
         }
         return copies;
+    }
+
+    private static List<Integer> getMyNumbers(String[] cardParts)
+    {
+        String[] myNumbersRaw = cardParts[1]
+                .strip()
+                .split(" ");
+
+        return Arrays.stream(myNumbersRaw)
+                .filter(str -> !str.isBlank())
+                .mapToInt(str -> Integer.parseInt(str.strip()))
+                .boxed()
+                .toList();
+    }
+
+    private static List<Integer> getWinningNumbers(String[] cardParts)
+    {
+        String[] winningNumbersRaw = cardParts[0]
+                .substring(9)
+                .strip()
+                .split(" ");
+
+        return Arrays.stream(winningNumbersRaw)
+                .filter(str -> !str.isBlank())
+                .mapToInt(str -> Integer.parseInt(str.strip()))
+                .boxed()
+                .toList();
     }
 }

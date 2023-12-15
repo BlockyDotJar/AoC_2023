@@ -17,6 +17,8 @@
  */
 package dev.blocky.aoc;
 
+import dev.blocky.aoc.annotations.Unsolved;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -24,11 +26,12 @@ import java.util.List;
 
 import static java.nio.charset.StandardCharsets.UTF_8;
 
-public class Day_01
+@Unsolved(willSolveInFuture = false)
+public class Day_13
 {
     public static void main(String[] args) throws IOException
     {
-        File file = new File("src/rsc/Day_01.txt");
+        File file = new File("src/rsc/Day_13.txt");
         List<String> fileContent = Files.readAllLines(file.toPath(), UTF_8);
 
         // Part 1 of the Challenge.
@@ -38,45 +41,13 @@ public class Day_01
         System.out.println(part2(fileContent));
     }
 
-    public static int part1(List<String> lines)
+    public static int part1(@SuppressWarnings("unused") List<String> lines)
     {
-        int sum = 0;
-
-        for (String line : lines)
-        {
-            sum += getTwoDigitNumber(line);
-        }
-        return sum;
+        return -1;
     }
 
-    public static int part2(List<String> lines)
+    public static long part2(@SuppressWarnings("unused") List<String> lines)
     {
-        List<String> numbers = List.of
-                (
-                        "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"
-                );
-
-        int sum = 0;
-
-        for (String line : lines)
-        {
-            for (int i = 0; i < numbers.size(); i++)
-            {
-                String number = numbers.get(i);
-                line = line.replaceAll(number, number + (i + 1) + number);
-            }
-
-            sum += getTwoDigitNumber(line);
-        }
-        return sum;
-    }
-
-    private static int getTwoDigitNumber(String line)
-    {
-        int[] realNumbers = line.chars().filter(Character::isDigit).map(Character::getNumericValue).toArray();
-
-        String firstNumber = Integer.toString(realNumbers[0]);
-        String lastNumber = Integer.toString(realNumbers[realNumbers.length - 1]);
-        return Integer.parseInt(firstNumber + lastNumber);
+        return -1;
     }
 }
