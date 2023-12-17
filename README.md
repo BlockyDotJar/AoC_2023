@@ -35,3 +35,4 @@ Like I said, this is not the *best* or maybe not even a *good* solution.
 | 14 - Parabolic Reflector Dish        | ✅      | ❌      |
 | 15 - Lens Library                    | ✅      | ✅      |
 | 16 - The Floor Will Be Lava          | ❌      | ❌      |
+| 17 - Clumsy Crucible                 | ❌      | ❌      |
