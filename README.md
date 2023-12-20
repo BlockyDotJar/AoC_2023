@@ -38,3 +38,4 @@ Like I said, this is not the *best* or maybe not even a *good* solution.
 | 17 - Clumsy Crucible                 | ❌      | ❌      |
 | 18 - Lavaduct Lagoon                 | ✅      | ✅      |
 | 19 - Aplenty                         | ✅      | ❌      |
+| 20 - Pulse Propagation               | ❌      | ❌      |
