@@ -40,3 +40,4 @@ Like I said, this is not the *best* or maybe not even a *good* solution.
 | 19 - Aplenty                         | ✅      | ❌      |
 | 20 - Pulse Propagation               | ❌      | ❌      |
 | 21 - Step Counter                    | ❌      | ❌      |
+| 22 - Sand Slabs                      | ❌      | ❌      |
