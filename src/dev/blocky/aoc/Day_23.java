@@ -27,11 +27,11 @@ import java.util.List;
 import static java.nio.charset.StandardCharsets.UTF_8;
 
 @Unsolved(willSolveInFuture = false)
-public class Day_22
+public class Day_23
 {
     public static void main(String[] args) throws IOException
     {
-        File file = new File("src/rsc/Day_22.txt");
+        File file = new File("src/rsc/Day_23.txt");
         List<String> fileContent = Files.readAllLines(file.toPath(), UTF_8);
 
         // Part 1 of the Challenge.
