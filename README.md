@@ -42,3 +42,5 @@ Like I said, this is not the *best* or maybe not even a *good* solution.
 | 21 - Step Counter                    | ❌      | ❌      |
 | 22 - Sand Slabs                      | ❌      | ❌      |
 | 23 - A Long Walk                     | ❌      | ❌      |
+| 24 - Never Tell Me The Odds          | ❌      | ❌      |
+| 25 - Snowverload                     | ❌      | ❌      |
